@@ -1,0 +1,77 @@
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    overflow-x: hidden; /* Hide overflow on the x-axis */
+}
+
+.slides {
+    display: flex;
+    width: 500%; /* Change to 500% to accommodate all slides */
+}
+
+.slide {
+    width: 100%; /* Each slide takes up the full width */
+    flex: 0 0 auto; /* Reset flex basis to auto */
+}
+
+.slide img {
+    width: 100%;
+    height: 42rem; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures images are uniformly covered */
+    vertical-align: middle;
+}
+
+/* Penelitian Slider Specific Styles */
+#penelitian-slider .slide img {
+    height: auto; /* Auto height for portrait mode */
+    max-height: 31rem; /* Maximum height for better viewing */
+    object-fit: contain; /* Contain to keep the aspect ratio */
+}
+
+
+
+
+/* Navigation buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slider #penelitian-prev {
+    color: #333;
+}
+
+#sertifikat-slider .slide img {
+    width: 100% /* Reset width */
+    height: auto; /* Reset height */
+    max-width: 100%; /* Ensure the image fits within its container */
+    max-height: 100%; /* Ensure the image fits within its container */
+    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+}

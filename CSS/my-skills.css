@@ -1,0 +1,98 @@
+#my-skills {
+    background-color: #f8f8f8;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#my-skills .title {
+    margin-bottom: 40px;
+}
+
+#my-skills .title h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#my-skills .segment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#my-skills .section {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#my-skills .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 8rem;
+    margin-left: 4rem;
+}
+
+.logo img {
+    width: 100%;
+    height: 50px;
+    margin: 0.8rem;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.skills-language {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.language-item {
+    margin: 10px;
+    padding: 10px 20px; /* Adjust padding for a more compact box */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px; /* Limit the width to prevent expanding */
+    text-align: center; /* Center the text inside the box */
+}
+
+.language-item p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 20;
+    font-style: italic;
+}
+
+#english-content {
+    display: flex;
+    align-content: center;
+}
+
+#english-text {
+    align-content: center;
+}
+

@@ -1,0 +1,56 @@
+#about-me {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.about-me-title h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#about-me .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me .image-placeholder {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    margin: 20px;
+}
+
+#about-me .image-placeholder img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-me .text {
+    flex: 2;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 20px;
+    text-align: left;
+}
+
+#about-me .text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about-me .text p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+    text-align: justify;
+}
+
